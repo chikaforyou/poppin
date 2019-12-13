@@ -20,4 +20,7 @@ var temp, i, imax int
     o[pass] = temp
     pass++
    }
+  for j:=0; j<len(o); j++ {
+    fmt.Print(o[j], " ")
+  }
   }
